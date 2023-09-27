@@ -68,6 +68,16 @@ body {
     left: 23.5%;
 }
 
+.penguin-body::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 45%;
+    background-color: gray;
+    top: 10%;
+    left: 25%;
+}
+
 .penguin * {
     position: absolute;
 }
