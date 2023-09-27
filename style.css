@@ -1,17 +1,10 @@
 body {
-    background:linear-gradient(45deg,rgb(118, 201, 255), rgb(247, 255, 222));
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;   
-}
-
-.penguin {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 75px;
+    overflow: hidden;
 }
 
 .left-mountain {
@@ -43,6 +36,13 @@ body {
     border-radius: 50%;
     top: -75px;
     right: -75px;
+}
+
+.penguin {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 75px;
     z-index: 4;
     position: relative;
 }
@@ -50,12 +50,18 @@ body {
 .penguin-head {
     width: 50%;
     height: 45%;
-    background: linear-gradient(45deg, gray, rgb(239, 240, 228));
-    border-top-right-radius: 70%;
-    border-top-left-radius: 70%;
-    border-bottom-left-radius: 65%;
-    border-bottom-right-radius: 65%;
+    background: linear-gradient(45deg,
+            gray,
+            rgb(239, 240, 228));
+    border-radius: 70% 70% 65% 65%;
 }
+
+.penguin-body {
+    width: 53%;
+    height: 45%;
+    background: linear-gradient(45deg, rgb(134, 133, 133) 0%, rgb(234, 231, 231) 25%, white 67%);
+}
+
 
 .ground {
     width: 100vw;
