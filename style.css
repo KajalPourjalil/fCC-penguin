@@ -187,7 +187,7 @@ body {
     position: absolute;
     width: 50%;
     height: 45%;
-    background-color: var(--penguin-skin)
+    background-color: var(--penguin-skin);
     top: 10%;
     left: 25%;
     border-bottom-left-radius: 100%;
@@ -201,6 +201,18 @@ body {
     width: 30%;
     height: 60%;
     background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
+}
+
+.arm.left {
+    top: 35%;
+    left: 5%;
+    transform-origin: 0% 0%;
+    transform: rotate(130deg) scaleX(-1);
+}
+
+.arm.right {
+    top: 0%;
+    right: -5%;
 }
 
 .foot {
