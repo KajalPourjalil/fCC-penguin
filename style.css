@@ -200,6 +200,10 @@ body {
 .arm {
     width: 30%;
     height: 60%;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 120%;
     background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
 }
 
@@ -213,6 +217,7 @@ body {
 .arm.right {
     top: 0%;
     right: -5%;
+    transform: rotate(-45deg);
 }
 
 .foot {
