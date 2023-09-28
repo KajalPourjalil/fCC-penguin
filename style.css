@@ -245,6 +245,11 @@ body {
     position: absolute;
 }
 
+.penguin:active {
+    transform: scale(1.5);
+    cursor: not-allowed;
+}
+
 
 .ground {
     width: 100vw;
