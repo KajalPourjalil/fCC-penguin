@@ -205,6 +205,7 @@ body {
     border-bottom-right-radius: 30%;
     border-bottom-left-radius: 120%;
     background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
+    z-index: -1;
 }
 
 .arm.left {
@@ -251,4 +252,22 @@ body {
     z-index: 3;
     position: absolute;
     margin-top: -58px;
+}
+
+@keyframes wave {
+    10% {
+        transform: rotate(110deg) scaleX(-1);
+    }
+
+    20% {
+transform: rotate(130deg) scaleX(-1);
+    }
+
+    30% {
+
+    }
+
+    40% {
+
+    }
 }
